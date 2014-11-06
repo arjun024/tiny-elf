@@ -1,5 +1,12 @@
 tiny-elf
 ========
+A very tiny ELF (Executable and Linkable Format) executable, that does exactly the same as
+```
+int main(void) {
+  return 42;
+}
+```
+but a 100 times thinner.
 
 ####Source####
 http://www.muppetlabs.com/~breadbox/software/tiny/teensy.html
