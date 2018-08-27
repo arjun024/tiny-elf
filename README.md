@@ -8,12 +8,14 @@ int main(void) {
 ```
 but a 100 times thinner.
 
-####Source####
+#### Source ####
+
 http://www.muppetlabs.com/~breadbox/software/tiny/teensy.html
 
 ([cached version](http://webcache.googleusercontent.com/search?q=cache%3Ahttp%3A%2F%2Fwww.muppetlabs.com%2F~breadbox%2Fsoftware%2Ftiny%2Fteensy.html))
 
-####Run it####
+#### Run it ####
+
 ```
 $ nasm -f bin -o a.out tiny.asm
 $ chmod +x a.out
@@ -23,5 +25,6 @@ $ wc -c a.out
   45 a.out
 ```
 
-####Credits####
+#### Credits ####
+
 All credits to muppetlabs.com
